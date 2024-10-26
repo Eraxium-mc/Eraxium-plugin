@@ -1,0 +1,9 @@
+language: en
+scoreboard:
+  title: "&aMy Server"
+  lines:
+    - "&eUser: %player_name%"
+    - "&eRole: %vault_rank%"
+    - "&eXP: %player_exp%"
+    - "&eKills: %statistic_player_kills%"
+    - "&eDeaths: %statistic_deaths%"

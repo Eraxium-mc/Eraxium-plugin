@@ -1,0 +1,13 @@
+name: Eraxium
+version: "1.1"
+main: org.stiala.eraxium.plugin
+api-version: "1.20"
+commands:
+  era:
+    description: Main command for the plugin
+    usage: /era <reload>
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true
